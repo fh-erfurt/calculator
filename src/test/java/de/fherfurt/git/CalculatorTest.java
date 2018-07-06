@@ -15,32 +15,32 @@ public class CalculatorTest {
 	}
 
 	@Test
-	public double plus(double i, double j)
+	public void plus()
 	{
-		return i+j;
+		double i = 5, j = 10;
+		assertTrue(calculator.plus(i,j) == 15);
 	}
 
 	@Test
-	public double minus(double i, double j) {
-
-		return i-j;
-	}
-
-	@Test
-	public double mal(double i, double j) {
-		return i*j;
-	}
-
-	@Test
-	public double geteilt(double i, double j)
+	public void minus()
 	{
-		if (j != 0)
-		{
-			return i/j;
-		}
-		else{
-			return null;
-		}
+		double i = 5, j = 10;
+        assertTrue(calculator.minus(i,j) == -5);
 	}
+
+	@Test
+	public void mal()
+	{
+		double i = 5, j = 10;
+        assertTrue(calculator.mal(i,j) == 50);
+	}
+
+	@Test
+	public void geteilt()
+	{
+		double i = 10, j = 5;
+        assertTrue(calculator.geteilt(i,j) == 2);
+	}
+
 
 }
