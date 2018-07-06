@@ -16,22 +16,22 @@ public class CalculatorTest {
 
     @Test
 	public void plus() {
-		fail("Not yet implemented");
+		assertEquals(6, calculator.plus(5, 1), 0);
 	}
     
     @Test
 	public void minus() {
-		fail("Not yet implemented");
+    	assertEquals(4, calculator.minus(5, 1), 0);
 	}
     
     @Test
 	public void mal() {
-		fail("Not yet implemented");
+		assertEquals(6, calculator.mal(3, 2), 0);
 	}
     
     @Test
 	public void geteilt() {
-		fail("Not yet implemented");
+		assertEquals(2, calculator.geteilt(10, 5), 0);
 	}
 
 }
