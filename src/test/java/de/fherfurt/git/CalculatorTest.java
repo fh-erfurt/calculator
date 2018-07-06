@@ -16,7 +16,7 @@ public class CalculatorTest {
 
     @Test
 	public void plus() {
-		fail("Not yet implemented");
+    	assertEquals(3, calculator.plus(2, 1));
 	}
     
     @Test
