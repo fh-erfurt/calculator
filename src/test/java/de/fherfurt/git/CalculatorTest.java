@@ -20,18 +20,18 @@ public class CalculatorTest {
 	}
     
     @Test
-	public void minus() {
-		fail("Not yet implemented");
+	public void testMinus() {
+		assertEquals(1, calculator.minus(2,1));
 	}
     
     @Test
-	public void mal() {
-		fail("Not yet implemented");
+	public void testMultiply() {
+		assertEquals(2, calculator.multiply(2,1));
 	}
     
     @Test
-	public void geteilt() {
-		fail("Not yet implemented");
+	public void testDivide() {
+		assertEquals(2, calculator.divide(2,1));
 	}
 
 }
