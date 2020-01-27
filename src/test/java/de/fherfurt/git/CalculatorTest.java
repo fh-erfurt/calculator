@@ -34,4 +34,11 @@ public class CalculatorTest {
 		fail("Not yet implemented");
 	}
 
+	/*
+	 * Please create more mathematical functions, if you like!
+	 *
+	 * But: always test first!
+	 */
+
+	// this is a history rewrite, we try to force push
 }
