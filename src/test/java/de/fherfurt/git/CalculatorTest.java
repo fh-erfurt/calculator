@@ -40,5 +40,5 @@ public class CalculatorTest {
 	 * But: always test first!
 	 */
 
-	// this is a history rewrite, we try to force push
+	// now history can't be changed any more
 }
